@@ -92,6 +92,15 @@
                                     <rect key="frame" x="207" y="126" width="102" height="83"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwq-dk-fMB">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="130" width="169" height="21"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1HE-5N-uKy">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.5390263864" green="0.51790289609999995" blue="0.72573454479999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -115,6 +124,7 @@
                                 <exclude reference="zyZ-Ai-FW8"/>
                                 <exclude reference="nlt-Sb-O01"/>
                                 <exclude reference="Zjd-1F-XWf"/>
+                                <exclude reference="Nwq-dk-fMB"/>
                                 <exclude reference="1HE-5N-uKy"/>
                             </mask>
                         </variation>
@@ -124,6 +134,7 @@
                                 <include reference="zyZ-Ai-FW8"/>
                                 <include reference="nlt-Sb-O01"/>
                                 <include reference="Zjd-1F-XWf"/>
+                                <include reference="Nwq-dk-fMB"/>
                                 <include reference="1HE-5N-uKy"/>
                             </mask>
                         </variation>
@@ -132,6 +143,7 @@
                         <outlet property="enterMessageTextField" destination="zyZ-Ai-FW8" id="Hcq-IR-jrG"/>
                         <outlet property="enterNameTextField" destination="PjC-32-crH" id="Y99-At-f23"/>
                         <outlet property="messageLabel" destination="nlt-Sb-O01" id="LPE-4A-plk"/>
+                        <outlet property="nameLabel" destination="Nwq-dk-fMB" id="VtC-FW-qnX"/>
                         <outlet property="sendMailButton" destination="1HE-5N-uKy" id="1Ub-Zx-pk9"/>
                     </connections>
                 </viewController>
