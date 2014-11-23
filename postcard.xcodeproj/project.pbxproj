@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F467C90A19FC9E0000235F01 /* Peyrefitte et roro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F467C90919FC9E0000235F01 /* Peyrefitte et roro.jpg */; };
 		F4F0933E19FC908F00B2B6B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F0933D19FC908F00B2B6B3 /* AppDelegate.swift */; };
 		F4F0934119FC908F00B2B6B3 /* postcard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4F0933F19FC908F00B2B6B3 /* postcard.xcdatamodeld */; };
 		F4F0934319FC908F00B2B6B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F0934219FC908F00B2B6B3 /* ViewController.swift */; };
 		F4F0934619FC908F00B2B6B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F0934419FC908F00B2B6B3 /* Main.storyboard */; };
 		F4F0934819FC908F00B2B6B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F0934719FC908F00B2B6B3 /* Images.xcassets */; };
 		F4F0935419FC908F00B2B6B3 /* postcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F0935319FC908F00B2B6B3 /* postcardTests.swift */; };
+		F4F0935E19FC97B600B2B6B3 /* 1939-Doudou-chez-Montherlant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4F0935D19FC97B600B2B6B3 /* 1939-Doudou-chez-Montherlant.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F467C90919FC9E0000235F01 /* Peyrefitte et roro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Peyrefitte et roro.jpg"; sourceTree = "<group>"; };
 		F4F0933819FC908F00B2B6B3 /* postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F0933C19FC908F00B2B6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4F0933D19FC908F00B2B6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		F4F0934D19FC908F00B2B6B3 /* postcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = postcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F0935219FC908F00B2B6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4F0935319FC908F00B2B6B3 /* postcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcardTests.swift; sourceTree = "<group>"; };
+		F4F0935D19FC97B600B2B6B3 /* 1939-Doudou-chez-Montherlant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1939-Doudou-chez-Montherlant.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		F4F0933B19FC908F00B2B6B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F467C90919FC9E0000235F01 /* Peyrefitte et roro.jpg */,
+				F4F0935D19FC97B600B2B6B3 /* 1939-Doudou-chez-Montherlant.jpg */,
 				F4F0933C19FC908F00B2B6B3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F0935E19FC97B600B2B6B3 /* 1939-Doudou-chez-Montherlant.jpg in Resources */,
+				F467C90A19FC9E0000235F01 /* Peyrefitte et roro.jpg in Resources */,
 				F4F0934619FC908F00B2B6B3 /* Main.storyboard in Resources */,
 				F4F0934819FC908F00B2B6B3 /* Images.xcassets in Resources */,
 			);
@@ -403,6 +411,7 @@
 				F4F0935919FC908F00B2B6B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4F0935A19FC908F00B2B6B3 /* Build configuration list for PBXNativeTarget "postcardTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +420,7 @@
 				F4F0935C19FC908F00B2B6B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
